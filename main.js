@@ -4,7 +4,7 @@ const ffmpeg = require('fluent-ffmpeg');
 let win;
 
 const createWindow = () => {
-    win.setMenu(null)  
+    //win.setMenu(null)  
     win.loadFile('index.html');
 };
 
@@ -32,5 +32,6 @@ app.on('ready', () => {
 ipcMain.on('video:submit', (event, path) => {
     ffmpeg.ffprobe(path, (err, metadata) => {
         win.webContents.send('video:metadata', metadata.format.duration);
+        console.log("Video is", metadata.format.duration, "second long");
     });
 });
