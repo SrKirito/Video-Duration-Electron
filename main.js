@@ -4,7 +4,7 @@ const ffmpeg = require('fluent-ffmpeg');
 let win;
 
 const createWindow = () => {
-    //win.setMenu(null)  
+    win.setMenu(null)  
     win.loadFile('index.html');
 };
 
