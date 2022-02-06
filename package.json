@@ -1,0 +1,16 @@
+{
+  "name": "Video-Duration",
+  "version": "1.0.0",
+  "main": "main.js",
+  "author": "Nagaze",
+  "license": "gnu",
+  "devDependencies": {
+    "electron": "^17.0.0"
+  },
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "fluent-ffmpeg": "^2.1.2"
+  }
+}
