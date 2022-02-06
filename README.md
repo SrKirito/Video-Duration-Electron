@@ -1,3 +1,3 @@
 # Video-Duration-Electron
 
-In order to that project work, you should have Electron JS and fluent-ffmpeg(and ffmpeg obviouslly)
+In order to that project work, you should have Electron JS and fluent-ffmpeg(and ffmpeg obviouslly) in that folder, i did not uploaded it, because the node_modules folder was too big...
